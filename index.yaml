@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: "test"
+spec:
+  hard:
+    limits.cpu: "4"
+    limits.memory: "9Gi"
